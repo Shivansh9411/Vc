@@ -1,0 +1,4 @@
+# Target labels
+ Scalar
+# Source files and their labels
+/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/tests/scalaraccess.cpp

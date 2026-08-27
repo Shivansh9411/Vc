@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVc.a CMakeFiles/Vc.dir/src/const.cpp.o CMakeFiles/Vc.dir/src/support_dummy.cpp.o
+/usr/bin/ranlib libVc.a

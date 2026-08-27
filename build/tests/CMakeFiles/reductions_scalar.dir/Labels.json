@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/tests/reductions.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Scalar"
+		],
+		"name" : "reductions_scalar"
+	}
+}

@@ -1,3 +1,5 @@
+#include <stdexcept>
+#include <cstdlib>
 /*  This file is part of the Vc library. {{{
 Copyright © 2017 Matthias Kretz <kretz@kde.org>
 
@@ -30,11 +32,17 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 namespace Vc_VERSIONED_NAMESPACE
 {
-bool isImplementationSupported(Implementation impl) { return impl == ScalarImpl; }
+bool isImplementationSupported(Implementation impl) {
+    __builtin_trap() /* STUB: not implemented */;
+}
 
-Vc::Implementation bestImplementationSupported() { return Vc::ScalarImpl; }
+Vc::Implementation bestImplementationSupported() {
+    __builtin_trap() /* STUB: not implemented */;
+}
 
-unsigned int extraInstructionsSupported() { return 0; }
+unsigned int extraInstructionsSupported() {
+    __builtin_trap() /* STUB: not implemented */;
+}
 }
 
 #undef Vc_TARGET_NO_SIMD

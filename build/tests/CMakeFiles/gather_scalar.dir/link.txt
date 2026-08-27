@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128 -O3 -DNDEBUG CMakeFiles/gather_scalar.dir/gather.cpp.o -o gather_scalar  ../libVc.a 

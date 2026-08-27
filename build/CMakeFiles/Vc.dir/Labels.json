@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/src/const.cpp"
+		},
+		{
+			"file" : "/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/src/support_dummy.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"other"
+		],
+		"name" : "Vc"
+	}
+}

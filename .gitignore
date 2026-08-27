@@ -9,3 +9,5 @@ vc-benchmarks
 build-*
 .vs
 out
+
+compile_commands.json

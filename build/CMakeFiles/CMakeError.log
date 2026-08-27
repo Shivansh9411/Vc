@@ -1,0 +1,189 @@
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__diag_disable_264 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_82d33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82d33.dir/build.make CMakeFiles/cmTC_82d33.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82d33.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__diag_disable_264  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -diag-disable 264 -o CMakeFiles/cmTC_82d33.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: unrecognized gcc debugging option: i
+cc1plus: warning: unrecognized gcc debugging option: g
+cc1plus: warning: unrecognized gcc debugging option: -
+cc1plus: warning: unrecognized gcc debugging option: d
+cc1plus: warning: unrecognized gcc debugging option: i
+cc1plus: warning: unrecognized gcc debugging option: s
+cc1plus: warning: unrecognized gcc debugging option: b
+cc1plus: warning: unrecognized gcc debugging option: l
+cc1plus: warning: unrecognized gcc debugging option: e
+c++: warning: 264: linker input file unused because linking not done
+c++: error: 264: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_82d33.dir/build.make:78: CMakeFiles/cmTC_82d33.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_82d33.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_82d33/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__diag_disable_61 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1022/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1022.dir/build.make CMakeFiles/cmTC_c1022.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c1022.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__diag_disable_61  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -diag-disable 61 -o CMakeFiles/cmTC_c1022.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: unrecognized gcc debugging option: i
+cc1plus: warning: unrecognized gcc debugging option: g
+cc1plus: warning: unrecognized gcc debugging option: -
+cc1plus: warning: unrecognized gcc debugging option: d
+cc1plus: warning: unrecognized gcc debugging option: i
+cc1plus: warning: unrecognized gcc debugging option: s
+cc1plus: warning: unrecognized gcc debugging option: b
+cc1plus: warning: unrecognized gcc debugging option: l
+cc1plus: warning: unrecognized gcc debugging option: e
+c++: warning: 61: linker input file unused because linking not done
+c++: error: 61: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_c1022.dir/build.make:78: CMakeFiles/cmTC_c1022.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_c1022.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c1022/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mfpmath_sse failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25954/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25954.dir/build.make CMakeFiles/cmTC_25954.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25954.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__mfpmath_sse  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -mfpmath=sse -o CMakeFiles/cmTC_25954.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-mfpmath=sse’
+gmake[1]: *** [CMakeFiles/cmTC_25954.dir/build.make:78: CMakeFiles/cmTC_25954.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_25954/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse2 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e264/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e264.dir/build.make CMakeFiles/cmTC_4e264.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e264.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__msse2  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -msse2 -o CMakeFiles/cmTC_4e264.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-msse2’
+gmake[1]: *** [CMakeFiles/cmTC_4e264.dir/build.make:78: CMakeFiles/cmTC_4e264.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4e264/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_1 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1d60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1d60.dir/build.make CMakeFiles/cmTC_a1d60.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1d60.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__msse4_1  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -msse4.1 -o CMakeFiles/cmTC_a1d60.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-msse4.1’
+gmake[1]: *** [CMakeFiles/cmTC_a1d60.dir/build.make:78: CMakeFiles/cmTC_a1d60.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a1d60/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99ea9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99ea9.dir/build.make CMakeFiles/cmTC_99ea9.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99ea9.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__mavx  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -mavx -o CMakeFiles/cmTC_99ea9.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-mavx’
+gmake[1]: *** [CMakeFiles/cmTC_99ea9.dir/build.make:78: CMakeFiles/cmTC_99ea9.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_99ea9/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__arch_AVX failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5621/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5621.dir/build.make CMakeFiles/cmTC_d5621.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5621.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__arch_AVX  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    /arch:AVX -o CMakeFiles/cmTC_d5621.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: warning: /arch:AVX: linker input file unused because linking not done
+c++: error: /arch:AVX: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_d5621.dir/build.make:78: CMakeFiles/cmTC_d5621.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_d5621.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d5621/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_core_avx2 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2c22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2c22.dir/build.make CMakeFiles/cmTC_b2c22.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2c22.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__march_core_avx2  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -march=core-avx2 -o CMakeFiles/cmTC_b2c22.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unknown value ‘core-avx2’ for ‘-march’
+cc1plus: note: valid arguments are: armv8-a armv8.1-a armv8.2-a armv8.3-a armv8.4-a armv8.5-a armv8.6-a armv8-r native
+gmake[1]: *** [CMakeFiles/cmTC_b2c22.dir/build.make:78: CMakeFiles/cmTC_b2c22.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b2c22/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx2__mfma__mbmi2 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75025/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75025.dir/build.make CMakeFiles/cmTC_75025.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75025.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__mavx2__mfma__mbmi2  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -mavx2 -mfma -mbmi2 -o CMakeFiles/cmTC_75025.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-mavx2’
+c++: error: unrecognized command-line option ‘-mfma’
+c++: error: unrecognized command-line option ‘-mbmi2’
+gmake[1]: *** [CMakeFiles/cmTC_75025.dir/build.make:78: CMakeFiles/cmTC_75025.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_75025/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__arch_AVX2 failed with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0270/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0270.dir/build.make CMakeFiles/cmTC_e0270.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0270.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__arch_AVX2  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    /arch:AVX2 -o CMakeFiles/cmTC_e0270.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: warning: /arch:AVX2: linker input file unused because linking not done
+c++: error: /arch:AVX2: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_e0270.dir/build.make:78: CMakeFiles/cmTC_e0270.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_e0270.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e0270/fast] Error 2
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }

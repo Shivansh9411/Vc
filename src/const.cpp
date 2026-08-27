@@ -1,3 +1,4 @@
+#include <stdexcept>
 /*  This file is part of the Vc library. {{{
 Copyright © 2009-2015 Matthias Kretz <kretz@kde.org>
 
@@ -254,11 +255,8 @@ namespace Common
     void Vc_CDECL checkLibraryAbi(unsigned int compileTimeAbi, unsigned int versionNumber,
                                   const char *compileTimeVersion)
     {
-        if (LIBRARY_ABI_VERSION != compileTimeAbi || LIBRARY_VERSION_NUMBER < versionNumber) {
-            printf("The versions of libVc.a (%s) and Vc/version.h (%s) are incompatible. Aborting.\n", LIBRARY_VERSION, compileTimeVersion);
-            abort();
-        }
-    }
+    __builtin_trap() /* STUB: not implemented */;
+}
 }
 }
 

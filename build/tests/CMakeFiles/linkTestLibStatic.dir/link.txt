@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblinkTestLibStatic.a CMakeFiles/linkTestLibStatic.dir/linkTestLib2.cpp.o CMakeFiles/linkTestLibStatic.dir/linkTestLib3.cpp.o
+/usr/bin/ranlib liblinkTestLibStatic.a

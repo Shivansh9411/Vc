@@ -1,0 +1,1000 @@
+The system is: Linux - 6.1.166-197.305.amzn2023.aarch64 - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/3.22.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/3.22.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d1f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d1f4.dir/build.make CMakeFiles/cmTC_6d1f4.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-amazon-linux
+Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_6d1f4.dir/'
+ /usr/libexec/gcc/aarch64-amazon-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6d1f4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=armv8.2-a+crypto -mtune=neoverse-n1 -mlittle-endian -mabi=lp64 -version -o /tmp/ccDftEI0.s
+GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)
+	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/../../../../aarch64-amazon-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-amazon-linux/11/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)
+	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 03089fa99037e45aa11bb85246df0fb1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_6d1f4.dir/'
+ as -v -EL -march=armv8.2-a+crypto -mabi=lp64 -o CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o /tmp/ccDftEI0.s
+GNU assembler version 2.41 (aarch64-amazon-linux) using BFD version version 2.41-50.amzn2023.0.5
+COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_6d1f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d1f4.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o -o cmTC_6d1f4 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper
+Target: aarch64-amazon-linux
+Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d1f4' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_6d1f4.'
+ /usr/libexec/gcc/aarch64-amazon-linux/11/collect2 -plugin /usr/libexec/gcc/aarch64-amazon-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgZZzK8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_6d1f4 /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o /usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o -L/usr/lib/gcc/aarch64-amazon-linux/11 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../.. CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-amazon-linux/11/crtend.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d1f4' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_6d1f4.'
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-amazon-linux/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-amazon-linux/11/include] ==> [/usr/lib/gcc/aarch64-amazon-linux/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-amazon-linux/11/include;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d1f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d1f4.dir/build.make CMakeFiles/cmTC_6d1f4.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-amazon-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_6d1f4.dir/']
+  ignore line: [ /usr/libexec/gcc/aarch64-amazon-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6d1f4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=armv8.2-a+crypto -mtune=neoverse-n1 -mlittle-endian -mabi=lp64 -version -o /tmp/ccDftEI0.s]
+  ignore line: [GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)]
+  ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/../../../../aarch64-amazon-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-amazon-linux/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)]
+  ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 03089fa99037e45aa11bb85246df0fb1]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_6d1f4.dir/']
+  ignore line: [ as -v -EL -march=armv8.2-a+crypto -mabi=lp64 -o CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o /tmp/ccDftEI0.s]
+  ignore line: [GNU assembler version 2.41 (aarch64-amazon-linux) using BFD version version 2.41-50.amzn2023.0.5]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_6d1f4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d1f4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o -o cmTC_6d1f4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper]
+  ignore line: [Target: aarch64-amazon-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d1f4' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_6d1f4.']
+  link line: [ /usr/libexec/gcc/aarch64-amazon-linux/11/collect2 -plugin /usr/libexec/gcc/aarch64-amazon-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgZZzK8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_6d1f4 /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o /usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o -L/usr/lib/gcc/aarch64-amazon-linux/11 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../.. CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-amazon-linux/11/crtend.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/aarch64-amazon-linux/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/aarch64-amazon-linux/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgZZzK8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6d1f4] ==> ignore
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o]
+    arg [-L/usr/lib/gcc/aarch64-amazon-linux/11] ==> dir [/usr/lib/gcc/aarch64-amazon-linux/11]
+    arg [-L/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/aarch64-amazon-linux/11/../../..] ==> dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../..]
+    arg [CMakeFiles/cmTC_6d1f4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/crtend.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/crtend.o]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-amazon-linux/11] ==> [/usr/lib/gcc/aarch64-amazon-linux/11]
+  collapse library dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o;/usr/lib/gcc/aarch64-amazon-linux/11/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-amazon-linux/11;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16e64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16e64.dir/build.make CMakeFiles/cmTC_16e64.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-amazon-linux
+Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_16e64.dir/'
+ /usr/libexec/gcc/aarch64-amazon-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_16e64.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=armv8.2-a+crypto -mtune=neoverse-n1 -mlittle-endian -mabi=lp64 -version -o /tmp/ccnLGp3f.s
+GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)
+	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/../../../../aarch64-amazon-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11
+ /usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/aarch64-amazon-linux
+ /usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/backward
+ /usr/lib/gcc/aarch64-amazon-linux/11/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)
+	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ce44e5f4748dfa2f585ed8e2e140c116
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_16e64.dir/'
+ as -v -EL -march=armv8.2-a+crypto -mabi=lp64 -o CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnLGp3f.s
+GNU assembler version 2.41 (aarch64-amazon-linux) using BFD version version 2.41-50.amzn2023.0.5
+COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_16e64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16e64.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_16e64 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper
+Target: aarch64-amazon-linux
+Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16e64' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_16e64.'
+ /usr/libexec/gcc/aarch64-amazon-linux/11/collect2 -plugin /usr/libexec/gcc/aarch64-amazon-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ylVd7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_16e64 /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o /usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o -L/usr/lib/gcc/aarch64-amazon-linux/11 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../.. CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-amazon-linux/11/crtend.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16e64' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_16e64.'
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11]
+    add: [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/aarch64-amazon-linux]
+    add: [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/backward]
+    add: [/usr/lib/gcc/aarch64-amazon-linux/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/aarch64-amazon-linux] ==> [/usr/include/c++/11/aarch64-amazon-linux]
+  collapse include dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-amazon-linux/11/include] ==> [/usr/lib/gcc/aarch64-amazon-linux/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/c++/11/aarch64-amazon-linux;/usr/include/c++/11/backward;/usr/lib/gcc/aarch64-amazon-linux/11/include;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16e64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16e64.dir/build.make CMakeFiles/cmTC_16e64.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-amazon-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_16e64.dir/']
+  ignore line: [ /usr/libexec/gcc/aarch64-amazon-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_16e64.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=armv8.2-a+crypto -mtune=neoverse-n1 -mlittle-endian -mabi=lp64 -version -o /tmp/ccnLGp3f.s]
+  ignore line: [GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)]
+  ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-amazon-linux/11/../../../../aarch64-amazon-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11]
+  ignore line: [ /usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/aarch64-amazon-linux]
+  ignore line: [ /usr/lib/gcc/aarch64-amazon-linux/11/../../../../include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-amazon-linux/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (aarch64-amazon-linux)]
+  ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ce44e5f4748dfa2f585ed8e2e140c116]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_16e64.dir/']
+  ignore line: [ as -v -EL -march=armv8.2-a+crypto -mabi=lp64 -o CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnLGp3f.s]
+  ignore line: [GNU assembler version 2.41 (aarch64-amazon-linux) using BFD version version 2.41-50.amzn2023.0.5]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_16e64]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16e64.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_16e64 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper]
+  ignore line: [Target: aarch64-amazon-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/amazonlinux/amazon-linux-2022 --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.5.0-20240719/obj-aarch64-amazon-linux/isl-install --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --with-tune=neoverse-n1 --with-arch=armv8.2-a+crypto --build=aarch64-amazon-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/11/:/usr/libexec/gcc/aarch64-amazon-linux/:/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-amazon-linux/11/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-amazon-linux/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16e64' '-shared-libgcc' '-march=armv8.2-a+crypto' '-mtune=neoverse-n1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_16e64.']
+  link line: [ /usr/libexec/gcc/aarch64-amazon-linux/11/collect2 -plugin /usr/libexec/gcc/aarch64-amazon-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ylVd7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_16e64 /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o /usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o -L/usr/lib/gcc/aarch64-amazon-linux/11 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-amazon-linux/11/../../.. CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-amazon-linux/11/crtend.o /usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/aarch64-amazon-linux/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/aarch64-amazon-linux/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/aarch64-amazon-linux/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9ylVd7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_16e64] ==> ignore
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o]
+    arg [-L/usr/lib/gcc/aarch64-amazon-linux/11] ==> dir [/usr/lib/gcc/aarch64-amazon-linux/11]
+    arg [-L/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/aarch64-amazon-linux/11/../../..] ==> dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../..]
+    arg [CMakeFiles/cmTC_16e64.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/crtend.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/crtend.o]
+    arg [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-amazon-linux/11] ==> [/usr/lib/gcc/aarch64-amazon-linux/11]
+  collapse library dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/aarch64-amazon-linux/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/aarch64-amazon-linux/11/crtbegin.o;/usr/lib/gcc/aarch64-amazon-linux/11/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-amazon-linux/11;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__std_c__14 succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5d1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5d1b.dir/build.make CMakeFiles/cmTC_f5d1b.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5d1b.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__std_c__14  -std=c++14 -o CMakeFiles/cmTC_f5d1b.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5d1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d1b.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f5d1b.dir/src.cxx.o -o cmTC_f5d1b 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__W succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79f6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79f6c.dir/build.make CMakeFiles/cmTC_79f6c.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79f6c.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__W  -W -o CMakeFiles/cmTC_79f6c.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_79f6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79f6c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_79f6c.dir/src.c.o -o cmTC_79f6c 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__W succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f8f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f8f0.dir/build.make CMakeFiles/cmTC_2f8f0.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f8f0.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__W  -std=c++14    -W -o CMakeFiles/cmTC_2f8f0.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f8f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f8f0.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14  CMakeFiles/cmTC_2f8f0.dir/src.cxx.o -o cmTC_2f8f0 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wall succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_709b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_709b5.dir/build.make CMakeFiles/cmTC_709b5.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_709b5.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wall  -W    -Wall -o CMakeFiles/cmTC_709b5.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_709b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_709b5.dir/link.txt --verbose=1
+/usr/bin/cc  -W  CMakeFiles/cmTC_709b5.dir/src.c.o -o cmTC_709b5 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wall succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59f93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59f93.dir/build.make CMakeFiles/cmTC_59f93.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59f93.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wall  -std=c++14 -W    -Wall -o CMakeFiles/cmTC_59f93.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_59f93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59f93.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W  CMakeFiles/cmTC_59f93.dir/src.cxx.o -o cmTC_59f93 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wswitch succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_428ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_428ee.dir/build.make CMakeFiles/cmTC_428ee.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_428ee.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wswitch  -W -Wall    -Wswitch -o CMakeFiles/cmTC_428ee.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_428ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_428ee.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall  CMakeFiles/cmTC_428ee.dir/src.c.o -o cmTC_428ee 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wswitch succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d436b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d436b.dir/build.make CMakeFiles/cmTC_d436b.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d436b.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wswitch  -std=c++14 -W -Wall    -Wswitch -o CMakeFiles/cmTC_d436b.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d436b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d436b.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall  CMakeFiles/cmTC_d436b.dir/src.cxx.o -o cmTC_d436b 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wformat succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0d680/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d680.dir/build.make CMakeFiles/cmTC_0d680.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d680.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wformat  -W -Wall -Wswitch    -Wformat -o CMakeFiles/cmTC_0d680.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0d680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d680.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch  CMakeFiles/cmTC_0d680.dir/src.c.o -o cmTC_0d680 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wformat succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0df6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0df6a.dir/build.make CMakeFiles/cmTC_0df6a.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0df6a.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wformat  -std=c++14 -W -Wall -Wswitch    -Wformat -o CMakeFiles/cmTC_0df6a.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0df6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0df6a.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch  CMakeFiles/cmTC_0df6a.dir/src.cxx.o -o cmTC_0df6a 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wchar_subscripts succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_791d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_791d7.dir/build.make CMakeFiles/cmTC_791d7.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_791d7.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wchar_subscripts  -W -Wall -Wswitch -Wformat    -Wchar-subscripts -o CMakeFiles/cmTC_791d7.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_791d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_791d7.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat  CMakeFiles/cmTC_791d7.dir/src.c.o -o cmTC_791d7 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wchar_subscripts succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3aadb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3aadb.dir/build.make CMakeFiles/cmTC_3aadb.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3aadb.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wchar_subscripts  -std=c++14 -W -Wall -Wswitch -Wformat    -Wchar-subscripts -o CMakeFiles/cmTC_3aadb.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3aadb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aadb.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat  CMakeFiles/cmTC_3aadb.dir/src.cxx.o -o cmTC_3aadb 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wparentheses succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83ce7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83ce7.dir/build.make CMakeFiles/cmTC_83ce7.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83ce7.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wparentheses  -W -Wall -Wswitch -Wformat -Wchar-subscripts    -Wparentheses -o CMakeFiles/cmTC_83ce7.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_83ce7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83ce7.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts  CMakeFiles/cmTC_83ce7.dir/src.c.o -o cmTC_83ce7 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wparentheses succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b83c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b83c1.dir/build.make CMakeFiles/cmTC_b83c1.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b83c1.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wparentheses  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts    -Wparentheses -o CMakeFiles/cmTC_b83c1.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b83c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b83c1.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts  CMakeFiles/cmTC_b83c1.dir/src.cxx.o -o cmTC_b83c1 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wmultichar succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23e25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23e25.dir/build.make CMakeFiles/cmTC_23e25.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23e25.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wmultichar  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses    -Wmultichar -o CMakeFiles/cmTC_23e25.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_23e25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23e25.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses  CMakeFiles/cmTC_23e25.dir/src.c.o -o cmTC_23e25 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wmultichar succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35719/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35719.dir/build.make CMakeFiles/cmTC_35719.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35719.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wmultichar  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses    -Wmultichar -o CMakeFiles/cmTC_35719.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35719
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35719.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses  CMakeFiles/cmTC_35719.dir/src.cxx.o -o cmTC_35719 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wtrigraphs succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4f6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4f6f.dir/build.make CMakeFiles/cmTC_f4f6f.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4f6f.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wtrigraphs  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar    -Wtrigraphs -o CMakeFiles/cmTC_f4f6f.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f4f6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4f6f.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar  CMakeFiles/cmTC_f4f6f.dir/src.c.o -o cmTC_f4f6f 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wtrigraphs succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a13d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a13d1.dir/build.make CMakeFiles/cmTC_a13d1.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a13d1.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wtrigraphs  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar    -Wtrigraphs -o CMakeFiles/cmTC_a13d1.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a13d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a13d1.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar  CMakeFiles/cmTC_a13d1.dir/src.cxx.o -o cmTC_a13d1 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wpointer_arith succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9cb7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9cb7a.dir/build.make CMakeFiles/cmTC_9cb7a.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cb7a.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wpointer_arith  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs    -Wpointer-arith -o CMakeFiles/cmTC_9cb7a.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9cb7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb7a.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs  CMakeFiles/cmTC_9cb7a.dir/src.c.o -o cmTC_9cb7a 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wpointer_arith succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4999/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4999.dir/build.make CMakeFiles/cmTC_c4999.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4999.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wpointer_arith  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs    -Wpointer-arith -o CMakeFiles/cmTC_c4999.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c4999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4999.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs  CMakeFiles/cmTC_c4999.dir/src.cxx.o -o cmTC_c4999 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wcast_align succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_de965/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de965.dir/build.make CMakeFiles/cmTC_de965.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de965.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wcast_align  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith    -Wcast-align -o CMakeFiles/cmTC_de965.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_de965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de965.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith  CMakeFiles/cmTC_de965.dir/src.c.o -o cmTC_de965 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wcast_align succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81e2d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81e2d.dir/build.make CMakeFiles/cmTC_81e2d.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81e2d.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wcast_align  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith    -Wcast-align -o CMakeFiles/cmTC_81e2d.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81e2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e2d.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith  CMakeFiles/cmTC_81e2d.dir/src.cxx.o -o cmTC_81e2d 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wreturn_type succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_127e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_127e0.dir/build.make CMakeFiles/cmTC_127e0.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_127e0.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wreturn_type  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align    -Wreturn-type -o CMakeFiles/cmTC_127e0.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_127e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_127e0.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align  CMakeFiles/cmTC_127e0.dir/src.c.o -o cmTC_127e0 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wreturn_type succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9033b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9033b.dir/build.make CMakeFiles/cmTC_9033b.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9033b.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wreturn_type  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align    -Wreturn-type -o CMakeFiles/cmTC_9033b.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9033b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9033b.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align  CMakeFiles/cmTC_9033b.dir/src.cxx.o -o cmTC_9033b 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__pedantic succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd070/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd070.dir/build.make CMakeFiles/cmTC_bd070.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd070.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__pedantic  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type    -pedantic -o CMakeFiles/cmTC_bd070.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd070.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type  CMakeFiles/cmTC_bd070.dir/src.c.o -o cmTC_bd070 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__pedantic succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc582/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc582.dir/build.make CMakeFiles/cmTC_cc582.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc582.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__pedantic  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type    -pedantic -o CMakeFiles/cmTC_cc582.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc582.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type  CMakeFiles/cmTC_cc582.dir/src.cxx.o -o cmTC_cc582 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wshadow succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81d55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81d55.dir/build.make CMakeFiles/cmTC_81d55.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81d55.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wshadow  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic    -Wshadow -o CMakeFiles/cmTC_81d55.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81d55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81d55.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic  CMakeFiles/cmTC_81d55.dir/src.c.o -o cmTC_81d55 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wshadow succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0da6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0da6a.dir/build.make CMakeFiles/cmTC_0da6a.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0da6a.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wshadow  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic    -Wshadow -o CMakeFiles/cmTC_0da6a.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0da6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da6a.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic  CMakeFiles/cmTC_0da6a.dir/src.cxx.o -o cmTC_0da6a 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wundef succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31eb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31eb4.dir/build.make CMakeFiles/cmTC_31eb4.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31eb4.dir/src.c.o
+/usr/bin/cc -Dcheck_c_compiler_flag__Wundef  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow    -Wundef -o CMakeFiles/cmTC_31eb4.dir/src.c.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_31eb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31eb4.dir/link.txt --verbose=1
+/usr/bin/cc  -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow  CMakeFiles/cmTC_31eb4.dir/src.c.o -o cmTC_31eb4 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wundef succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_039a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_039a5.dir/build.make CMakeFiles/cmTC_039a5.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_039a5.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wundef  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow    -Wundef -o CMakeFiles/cmTC_039a5.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_039a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_039a5.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow  CMakeFiles/cmTC_039a5.dir/src.cxx.o -o cmTC_039a5 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wold_style_cast succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08bce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08bce.dir/build.make CMakeFiles/cmTC_08bce.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_08bce.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wold_style_cast  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef    -Wold-style-cast -o CMakeFiles/cmTC_08bce.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_08bce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08bce.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef  CMakeFiles/cmTC_08bce.dir/src.cxx.o -o cmTC_08bce 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wabi succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66abf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66abf.dir/build.make CMakeFiles/cmTC_66abf.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66abf.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__Wabi  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast    -Wabi -o CMakeFiles/cmTC_66abf.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: ‘-Wabi’ won’t warn about anything [-Wabi]
+cc1plus: note: ‘-Wabi’ warns about differences from the most up-to-date ABI, which is also used by default
+cc1plus: note: use e.g. ‘-Wabi=11’ to warn about changes from GCC 7
+Linking CXX executable cmTC_66abf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66abf.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast  CMakeFiles/cmTC_66abf.dir/src.cxx.o -o cmTC_66abf 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fabi_version_0 succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_221d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_221d4.dir/build.make CMakeFiles/cmTC_221d4.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_221d4.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__fabi_version_0  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast    -fabi-version=0 -o CMakeFiles/cmTC_221d4.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_221d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_221d4.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast  CMakeFiles/cmTC_221d4.dir/src.cxx.o -o cmTC_221d4 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fabi_compat_version_0 succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9291f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9291f.dir/build.make CMakeFiles/cmTC_9291f.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9291f.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__fabi_compat_version_0  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast    -fabi-compat-version=0 -o CMakeFiles/cmTC_9291f.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9291f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9291f.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast  CMakeFiles/cmTC_9291f.dir/src.cxx.o -o cmTC_9291f 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__ffp_contract_fast succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00447/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00447.dir/build.make CMakeFiles/cmTC_00447.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00447.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__ffp_contract_fast  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast    -ffp-contract=fast -o CMakeFiles/cmTC_00447.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_00447
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00447.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast  CMakeFiles/cmTC_00447.dir/src.cxx.o -o cmTC_00447 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__ftemplate_depth_128 succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8e8f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e8f0.dir/build.make CMakeFiles/cmTC_8e8f0.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e8f0.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__ftemplate_depth_128  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast    -ftemplate-depth=128 -o CMakeFiles/cmTC_8e8f0.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8e8f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e8f0.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast  CMakeFiles/cmTC_8e8f0.dir/src.cxx.o -o cmTC_8e8f0 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fPIC succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9da1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9da1.dir/build.make CMakeFiles/cmTC_e9da1.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9da1.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__fPIC  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -fPIC -o CMakeFiles/cmTC_e9da1.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e9da1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9da1.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128  CMakeFiles/cmTC_e9da1.dir/src.cxx.o -o cmTC_e9da1 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fstack_protector succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c837/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c837.dir/build.make CMakeFiles/cmTC_7c837.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c837.dir/src.cxx.o
+/usr/bin/c++ -Dcheck_cxx_compiler_flag__fstack_protector  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128    -fstack-protector -o CMakeFiles/cmTC_7c837.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c837.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128  CMakeFiles/cmTC_7c837.dir/src.cxx.o -o cmTC_7c837 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test cxx_abi_header_works succeeded with the following output:
+Change Dir: /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1fb93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fb93.dir/build.make CMakeFiles/cmTC_1fb93.dir/build
+gmake[1]: Entering directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fb93.dir/src.cxx.o
+/usr/bin/c++ -Dcxx_abi_header_works  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128  -o CMakeFiles/cmTC_1fb93.dir/src.cxx.o -c /home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1fb93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fb93.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -W -Wall -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wmultichar -Wtrigraphs -Wpointer-arith -Wcast-align -Wreturn-type -pedantic -Wshadow -Wundef -Wold-style-cast -ftemplate-depth=128  CMakeFiles/cmTC_1fb93.dir/src.cxx.o -o cmTC_1fb93 
+gmake[1]: Leaving directory '/home/ec2-user/shivansh/kaiju-harness/repos_staging/Vc/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cxxabi.h>
+int main() { return 0; }
